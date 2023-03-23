@@ -9,9 +9,11 @@ builder.Services.AddSingleton<CustomerRepository>();
 
 var app = builder.Build();
 
+// Is required by the Azure API Management.
+app.UseSwagger();
+
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
     app.UseSwaggerUI();
 }
 

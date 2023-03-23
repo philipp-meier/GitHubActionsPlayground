@@ -4,7 +4,7 @@ using Server.Repositories;
 namespace Server.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("/")]
 public class CustomerController : ControllerBase
 {
     private readonly CustomerRepository _repository;
