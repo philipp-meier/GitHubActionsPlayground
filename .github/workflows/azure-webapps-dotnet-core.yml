@@ -28,7 +28,6 @@ on:
   push:
     branches: [ "main" ]
     paths: [ "Server/**" ]
-    
   workflow_dispatch:
 
 permissions:
