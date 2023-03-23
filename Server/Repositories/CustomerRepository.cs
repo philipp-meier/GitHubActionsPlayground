@@ -12,7 +12,8 @@ public class CustomerRepository {
             new Customer { Id = Guid.Parse("ddde6181-5349-47ba-b797-6411fe02d255"), FullName = "Customer 3" },
             new Customer { Id = Guid.Parse("32de6181-3249-47ba-b797-6411f102d255"), FullName = "Customer 4" },
             new Customer { Id = Guid.Parse("12d36181-3349-47ba-b797-6471f102d255"), FullName = "Customer 5" },
-            new Customer { Id = Guid.Parse("92d36181-3349-47ca-b897-23a1f102d225"), FullName = "Customer 6" }
+            new Customer { Id = Guid.Parse("92d36181-3349-47ca-b897-23a1f102d225"), FullName = "Customer 6" },
+            new Customer { Id = Guid.Parse("86939c10-0440-4b90-a9ed-63d54b26c985"), FullName = "Customer 7" }
         };
     }
 
