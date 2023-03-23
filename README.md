@@ -6,7 +6,7 @@ Playground for testing ASP.NET Core [GitHub Actions](https://docs.github.com/en/
 ## Features
 - [x] Simple CI pipeline for pull requests.
 - [x] Branch protection rules for pushing to `main` (includes executing the CI pipeline).
-- [x] Automated [Azure Web App](https://azure.microsoft.com/en-us/products/app-service/web/) deployment, when pushing to `main`.
+- [x] Automated [Azure Web App](https://azure.microsoft.com/en-us/products/app-service/web/) deployment, when pushing to the `Server`-directory of `main`.
 
 ## Azure App Service setup
 The `Server` application was added to Azure with the `Azure App Service: Create New Web App... (Advanced)` command of the Visual Code extension [Azure Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-node-azure-pack).  
