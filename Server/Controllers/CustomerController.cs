@@ -14,6 +14,12 @@ public class CustomerController : ControllerBase
         _repository = repo;
     }
 
+    [HttpGet]
+    public IActionResult Get()
+    {
+        return Ok("Hello, World!");
+    }
+
     [HttpGet("{id:guid}")]
     public IActionResult GetById([FromRoute] Guid id)
     {
